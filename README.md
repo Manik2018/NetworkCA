@@ -1,4 +1,4 @@
-This is the forked repository of my account. This project is my network class assignment. In this project I developed a spring boot application using Maven package builder. After running it locally using PostMan as client. I deployed the application in AWS elastic cloud beanstalk environment. I also created a docker image of ubuntu container containing CURL which acts as a client. Hence I demonstrated the use of AWS for web application deployment and docker images. containers through this assignment.
+This project is my network class assignment. In this project I developed a spring boot application using Maven package builder. After running it locally using PostMan as client. I deployed the application in AWS elastic cloud beanstalk environment. I also created a docker image of ubuntu container containing CURL which acts as a client. Hence I demonstrated the use of AWS for web application deployment and docker images. containers through this assignment.
 
 Following is the process for same.
 
@@ -19,3 +19,4 @@ Step 7: Then give command eb create --single --database. This create single inst
 Step 8: Give credentials for your database server. After this set database environment using eb setenv SPRING_DATASOURCE_URL= (Endpoint generated in EB console)
 
 Step 9: Give eb deploy.
+
